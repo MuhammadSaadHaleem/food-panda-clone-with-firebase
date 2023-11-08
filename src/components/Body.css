@@ -1,0 +1,147 @@
+.container1{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    
+}
+
+.container1 .section1{
+    position: absolute;
+    top: 18rem;
+    left: 10rem;
+}
+
+.container1 .section1 p{
+    
+    color: rgba(43, 43, 43, 0.951);
+    font-size: 2.5rem;
+    width: 90%;
+}
+.container1 .section img{
+    width: 55%;
+    margin-left: 63rem;
+}
+
+.container1 .section1 .inputBtn{
+    background-color: white;
+    width: 80%;
+    box-shadow: 0px 0px 7px 0px rgba(43, 43, 43, 0.415);
+    border-radius: 10px;
+    height: 80px;
+
+}
+
+.container1 .section1 .inputBtn .inputBtn1{
+
+    width: 100%;
+    
+}
+
+.container1 .section1 .inputBtn .inputBtn1 input{
+
+    width: 78%;
+    border: 1px solid lightgray;
+    padding-left: 20px;
+    border-radius: 7px;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 20px;    
+    
+}
+
+.container1 .section1 .inputBtn .inputBtn1 button{
+    background-color: #D70F64;
+    border-radius: 7px;
+    height: 55px;
+    width: 15%;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    border: 0px;
+}
+
+.container1 .section1 .inputBtn .inputBtn1 button:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #a20a4a;
+}
+
+.container2 {
+    width: 100%;
+    height: 60vh;
+}
+
+.container2 .frypenMan p{
+    margin: 5rem 0 2rem 4rem;
+    font-size: 2.5rem;
+}
+.container2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.container2  .frypenMan1{
+    width: 100%;
+    height: 60vh;
+} 
+
+.container3 {
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+
+.container3 .frymenCard{
+    background-color: white;
+    box-shadow: 0px 0px 7px 0px rgba(76, 76, 76, 0.415) ;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 15px;
+    width:35%;
+    position: absolute;
+    top: -7rem;
+    left: 5rem;
+    margin: 10px;
+}
+
+.container3 .frymenCard1 p{
+    width: 100%;
+}
+
+.container3 .frymenCard1 button{
+    background-color: #D70F64;
+    border-radius: 7px;
+    height: 45px;
+    width: 22%;
+    color: white;
+    border: 0;
+    font-size: 15px;
+
+}
+
+.container3 .frymenCard1 button:hover{
+    transform: scale(1.1);
+    background-color: #a20a4a;
+}
+
+.container4{
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.container4 .cityNames p{
+    margin: 2rem 0 2rem 4rem;
+    font-size: 2.5rem;
+}
+
+.container4 .citycard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right: -200px;
+    
+}
